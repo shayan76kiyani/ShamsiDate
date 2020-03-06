@@ -17,11 +17,15 @@
     "url": "git+https://github.com/shayan76kiyani/ShamsiDate.git"
   },
   "keywords": [
-    "[\"persian",
-    "date\"",
-    "\"date\"",
-    "\"jalali",
-    "date\"]"
+    "shamsiDate",
+    "shamsi Date",
+    "shamsi date",
+    "date",
+    "time",
+    "farsi",
+    "persian",
+    "jalali",
+    "date"
   ],
   "bugs": {
     "url": "https://github.com/shayan76kiyani/ShamsiDate/issues"
