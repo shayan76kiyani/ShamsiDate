@@ -1,5 +1,8 @@
 var shamsiDate = require('./index');
 
+console.log(shamsiDate.date());// 1398/09/04 
+console.log(shamsiDate.date(new Date()));// 1398/09/04 
+console.log(shamsiDate.date(new Date(), "America/New_York"));// 1398/09/04 
 console.log(shamsiDate.date(null, null, 'yyyy/MM/dd'));// 1398/09/04 
 console.log(shamsiDate.date(null, null, 'yyyy/MM/dd HH:mm:ss'));// 1398/09/04 09:05:51
 console.log(shamsiDate.date(new Date(), null, 'yyyy/MM/dd HH:mm:ss'));// 1398/09/04 09:05:51

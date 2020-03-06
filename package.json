@@ -1,6 +1,6 @@
 {
   "name": "shamsidate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "jalali date with timezone",
   "main": "index.js",
   "scripts": {
@@ -17,15 +17,13 @@
     "url": "git+https://github.com/shayan76kiyani/ShamsiDate.git"
   },
   "keywords": [
-    "shamsiDate",
-    "shamsi Date",
-    "shamsi date",
-    "date",
-    "time",
     "farsi",
-    "persian",
+    "shamsi",
     "jalali",
-    "date"
+    "persian",
+    "calendar",
+    "date",
+    "time"
   ],
   "bugs": {
     "url": "https://github.com/shayan76kiyani/ShamsiDate/issues"

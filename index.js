@@ -2,7 +2,7 @@ var jdate = require('jdate').JDate;
 
 var package = {} ; 
 
-package.date = function (time, timeZone, format){
+package.date = function (time, timeZone = "Asia/Tehran", format){
     if (time && timeZone) {
         return jdate(time.toLocaleString('en-GB', { timeZone: timeZone })).toString(format);
     } else if (timeZone) {
