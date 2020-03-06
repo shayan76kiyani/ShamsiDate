@@ -1,0 +1,14 @@
+{
+  "name": "shamsidate",
+  "version": "1.0.0",
+  "description": "jalali date with timezone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shayan kiyani",
+  "license": "ISC",
+  "dependencies": {
+    "jdate": "0.0.2"
+  }
+}
