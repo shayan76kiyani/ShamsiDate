@@ -1,6 +1,6 @@
 {
   "name": "shamsidate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jalali date with timezone",
   "main": "index.js",
   "scripts": {
