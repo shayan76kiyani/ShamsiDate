@@ -10,5 +10,21 @@
   "license": "ISC",
   "dependencies": {
     "jdate": "0.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shayan76kiyani/ShamsiDate.git"
+  },
+  "keywords": [
+    "[\"persian",
+    "date\"",
+    "\"date\"",
+    "\"jalali",
+    "date\"]"
+  ],
+  "bugs": {
+    "url": "https://github.com/shayan76kiyani/ShamsiDate/issues"
+  },
+  "homepage": "https://github.com/shayan76kiyani/ShamsiDate#readme"
 }
