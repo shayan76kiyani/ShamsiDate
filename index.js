@@ -3,12 +3,12 @@ var jdate = require('jdate').JDate;
 var package = {} ; 
 
 package.date = function (time, timeZone = "Asia/Tehran", format){
-    if (time && timeZone) {
-        return jdate(time.toLocaleString('en-GB', { timeZone: timeZone })).toString(format);
+    if (Date(time) && timeZone) {
+        return jdate(Date(time).toLocaleString('en-GB', { timeZone: timeZone })).toString(format);
     } else if (timeZone) {
         return jdate(new Date().toLocaleString('en-GB', { timeZone: timeZone })).toString(format);
     } else {
-        return jdate(time).toString(format);
+        return jdate(Date(time)).toString(format);
     }
 }
 
